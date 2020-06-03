@@ -1,0 +1,22 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <div class="text-center">
+        <h1>About Me--Robert 😊</h1>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-4">
+            <img src="{% static 'portfolio/robert.jpg' %}" class="img-fluid">
+        </div>
+        <div class="col-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan ante neque, ac porttitor augue imperdiet at. In mollis dictum magna. Curabitur turpis urna, mollis nec justo a, hendrerit scelerisque velit. Phasellus ullamcorper tempus diam, vitae rhoncus lorem pharetra vitae. Fusce laoreet nisi at massa facilisis, eu consequat velit auctor. Praesent vitae enim consequat, efficitur ante ut, aliquam arcu. Sed et accumsan ante. Integer ligula odio, pulvinar et massa a, fringilla mattis risus. Sed maximus nisi id erat laoreet, quis ultrices augue vehicula. Praesent non turpis sed libero vehicula aliquam.</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
